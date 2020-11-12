@@ -1,6 +1,6 @@
 # Maven Run
 
-This is a plain project showing how to run maven tests in initialisation of a container in docker.
+This is a plain project showing how to run maven tests on initialisation of a docker image.
 
 # Motivation
 
