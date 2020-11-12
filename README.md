@@ -20,13 +20,16 @@ To build do the following:
 $ docker build -t startshell .
 ```
 
-Which will create an image named startshell.
-The final part of buil process runs the shell script which simple runthe maven command.
+Which will create an image named *startshell*.
+The final part of build process runs the shell script.
+The commands in the shell script runs all the tests in the project.
 
-To verify that the test has run you can run the container and check the target directory contents for the surefire output.
+To verify that the test has completed can run the container and check the target directory contents for the surefire output.
 
 ```console
 $ docker run -it --name testcon startshell sh
 ```
+
+If you see the target directory then thats all.
 
 Job Done!
